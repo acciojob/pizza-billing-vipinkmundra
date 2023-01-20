@@ -46,7 +46,7 @@ public class Pizza {
     public void addExtraToppings(){
         // your code goes here
         if(isToppingAdded == false){
-                this.price+=toppingPrice;
+            this.price+=toppingPrice;
             isToppingAdded = true;
         }
     }
@@ -69,7 +69,7 @@ public class Pizza {
                 this.bill+="\nExtra Toppings Added: "+toppingPrice;
             }
             if(isTakeAwayAdded){
-                this.bill+="\nExtra Toppings Added: "+20;
+                this.bill+="\nPaperbag Added: "+20;
             }
             this.bill+="\nTotal Price: "+this.price+"\n";
             isBillGenerated = true;
